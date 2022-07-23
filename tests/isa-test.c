@@ -9,7 +9,6 @@ struct testdata riscv_tests[] = {
     /* rv64ui-p-* */
     ADD_INSN_TEST(rv64ui-p-add),
     ADD_INSN_TEST(rv64ui-p-addi),
-    ADD_INSN_TEST(rv64ui-p-addi),
     ADD_INSN_TEST(rv64ui-p-addiw),
     ADD_INSN_TEST(rv64ui-p-addw),
     ADD_INSN_TEST(rv64ui-p-and),
@@ -59,6 +58,21 @@ struct testdata riscv_tests[] = {
     ADD_INSN_TEST(rv64ui-p-sw),
     ADD_INSN_TEST(rv64ui-p-xor),
     ADD_INSN_TEST(rv64ui-p-xori),
+
+    /* rv64um-p-* */
+    ADD_INSN_TEST(rv64um-p-div),
+    ADD_INSN_TEST(rv64um-p-divu),
+    ADD_INSN_TEST(rv64um-p-divuw),
+    ADD_INSN_TEST(rv64um-p-divw),
+    ADD_INSN_TEST(rv64um-p-mul),
+    ADD_INSN_TEST(rv64um-p-mulh),
+    ADD_INSN_TEST(rv64um-p-mulhsu),
+    ADD_INSN_TEST(rv64um-p-mulhu),
+    ADD_INSN_TEST(rv64um-p-mulw),
+    ADD_INSN_TEST(rv64um-p-rem),
+    ADD_INSN_TEST(rv64um-p-remu),
+    ADD_INSN_TEST(rv64um-p-remuw),
+    ADD_INSN_TEST(rv64um-p-remw),
 
     /* rv64ua-p-* */
     ADD_INSN_TEST(rv64ua-p-amoadd_d),
